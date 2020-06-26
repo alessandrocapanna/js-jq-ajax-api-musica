@@ -67,8 +67,19 @@ header img {
     color: grey;
 }
 
-.select {
-  position: relative;
-  top: -40px;
-  left: 50%;
+label {
+    color: white;
+    padding-right: 10px;
+}
+
+.select,
+label {
+  padding: 5px;
+    position: relative;
+    top: -40px;
+    left: 30%;
+}
+
+.hidden {
+    display: none;
 }
